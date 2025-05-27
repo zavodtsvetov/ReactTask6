@@ -1,0 +1,63 @@
+* {
+  background-color: rgb(241, 253, 211);
+}
+.header {
+  display: grid;
+  justify-content: center;
+  font-size: 55px;
+  font-family: monospace;
+}
+
+.buttonShowAll {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border: none;
+  width: 180px;
+  background-color: rgb(249, 222, 181);
+  border: 3px solid rgb(252, 216, 162);
+  max-height: 30px;
+  margin-top: 5px;
+}
+.buttonShowAll:hover {
+  width: 300px;
+  background-color: darkmagenta;
+  font-size: 20px;
+  color: wheat;
+}
+
+.back {
+  background-color: lightseagreen;
+}
+
+.addButton {
+  background: rgb(160, 242, 160);
+}
+
+.task {
+  font-family: fantasy;
+  text-decoration: none;
+  color: purple;
+}
+
+.sortedButton {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border: none;
+  background-color: aliceblue;
+  width: 180px;
+  max-height: 30px;
+}
+
+.inputTask {
+  border: none;
+  width: 100px;
+  margin-left: 23px;
+}
+.inputTask::placeholder {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(197, 225, 249);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
